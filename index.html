@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Age Calculator</h1>
+    <form id="ageForm">
+        <label for="your name">Enter your YourName:</label>
+        <input type="text" id="name" required placeholder="Name"><br>
+        <label for="birthdate">Enter your birthdate:</label>
+        <input type="date" id="birthdate" required><br>
+        <button type="button" onclick="calculateAge()">Calculate Age</button>
+    </form>
+    <div id="result"></div>
     
 </body>
 </html>
