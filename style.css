@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    color: #333;
 }
 #ageForm,
 #result {
@@ -21,7 +22,7 @@ input {
     font-size: 0.95rem;
 }
 button {
-    background-color: #ffc0cb;
+    background-color: #4caf50;
     padding: 6px;
     cursor: pointer;
     border: none;
