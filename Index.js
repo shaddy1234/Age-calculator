@@ -23,6 +23,6 @@ function calculateAge() {
     const resultElement = document.getElementById('result');
     resultElement.innerHTML = `
       <div>Hello ${user}</div>
-      <p>Your age is: ${years} years, ${months} months, and ${days} days.</p>
+      <p>Your are ${years} years, ${months} months, and ${days} days old.</p>
     `;
   }
