@@ -16,8 +16,13 @@ function calculateAge() {
     const years = age.getUTCFullYear() - 1970;
     const months = age.getUTCMonth();
     const days = age.getUTCDate() - 1; // Subtract 1 to adjust for the initial day
-
+  // display the user's name
+    const name=document.getElementById('name')
+    const user=name.value
     // Display the result
     const resultElement = document.getElementById('result');
-    resultElement.innerHTML = `<p>Your age is: ${years} years, ${months} months, and ${days} days.</p>`;
+    resultElement.innerHTML = `
+      <div>Hello ${user}</div>
+      <p>Your age is: ${years} years, ${months} months, and ${days} days.</p>
+    `;
   }
